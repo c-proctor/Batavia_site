@@ -1,0 +1,28 @@
+body {
+    font-size:16px;
+    font-family: 'New Tegomin', serif;
+    font-family: 'Nothing You Could Do', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color:#16151C;
+}
+
+a {
+    color:#ffffff;
+}
+
+a:hover {
+    color:#86040E;
+}
+
+.navbar-nav li a:hover {
+    background-color:transparent;
+}
+
+.navbar-brand {
+    color:#A97857;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 2.0em;
+}
