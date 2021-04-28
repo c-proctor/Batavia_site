@@ -27,18 +27,45 @@ a:hover {
     font-size: 2.0em;
 }
 
+.navbar-brand>img {
+    display: inline;
+}
+
 .navbar-toggle {
     background-color: white;
+}
+
+.herobg {
+    background: url("images/bfswrbr.jpg") no-repeat center center;
+    background-size: cover;
 }
 
 .herobg h1 {
     font-family: 'New Tegomin', serif;
     font-size: 4.1em;
+    color: #ffffff;
+    padding-bottom: 20px;
+    padding-top: 300px;
+    mix-blend-mode: overlay;
+}
+
+.learnmore {
+    background-color: transparent;
+    border-color: #86040e;
+    color: #ffffff;
+    border-width: 2px;
+    margin-bottom: 200px;
 }
 
 .aboutbg {
     background: url("images/about-bg.jpg") no-repeat center center;
     background-size: cover;
+}
+
+.aboutdiv {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 15%;
 }
 
 .aboutbg h2 {
@@ -52,10 +79,17 @@ a:hover {
     font-weight: 400;
 }
 
+.discoverbg {
+    background: url("images/discover-bg.jpg") no-repeat center center;
+    background-size: cover;
+    padding-bottom: 80px;
+}
+
 .discoverbg h3 {
     font-family: 'New Tegomin', serif;
-    color: #a97857;
+    color: #ffffff;
     font-size: 2.5em;
+    padding-bottom: 50px;
 }
 
 .discoverbg h4 {
@@ -63,16 +97,72 @@ a:hover {
     font-size: 1.25em;
 }
 
+.continue {
+    color: #86040e;
+    font-style: italic;
+}
+
+.locationbg {
+    background: url("images/location-bg.jpg") no-repeat center center;
+    background-size: cover;
+}
+
 .locationbg h3 {
     font-family: 'New Tegomin', serif;
-    color: #a97857;
+    color: #ffffff;
     font-size: 2.5em;
+    padding-bottom: 50px;
+}
+
+.locationbg h5 {
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+.map {
+    padding-bottom: 60px;
+}
+
+.opening {
+    color: #ffffff;
+    padding-top: 80px;
 }
 
 .blocker {
     width: 133px;
-    height: 10px;
+    height: 3px;
     background-color: #ffffff;
     margin: auto;
     margin-bottom: 40px;
+}
+
+.hours-list {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.moreinfo {
+    background-color: transparent;
+    border-color: #ffffff;
+    font-size: 1.0em;
+}
+
+footer {
+    background-color: #16151c;
+    color: #ffffff;
+    padding-top: 25px;
+}
+
+.foot-logo {
+    display: inline;
+}
+
+.socials {
+    display: inline;
+    padding-top: 15px;
+}
+
+.copyright {
+    padding-top: 20px;
 }
