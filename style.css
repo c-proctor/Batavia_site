@@ -9,6 +9,15 @@ body {
     margin-bottom: 0px;
 }
 
+ul.nav.navbar-nav.navbar-right {
+    padding-top: 20px;
+    margin-right: -60px;
+}
+
+.navbar-collapse {
+    margin-bottom: 20px;
+}
+
 a {
     color:#ffffff;
 }
@@ -21,10 +30,15 @@ a:hover {
     background-color:transparent;
 }
 
+.navbar-nav li {
+    padding-left: 80px;
+}
+
 .navbar-brand {
     color:#a97857;
     font-family: 'Nothing You Could Do', cursive;
     font-size: 2.0em;
+    vertical-align: middle;
 }
 
 .navbar-brand>img {
@@ -46,7 +60,23 @@ a:hover {
     color: #ffffff;
     padding-bottom: 20px;
     padding-top: 300px;
-    mix-blend-mode: overlay;
+    /*mix-blend-mode: overlay;*/
+    /*opacity: 0.75;*/
+}
+
+.btn-primary:hover {
+    background-color:#86040e;
+    border-color: transparent;
+}
+
+.btn-primary:focus {
+    background-color: #86040e;
+    border-color: transparent;
+}
+
+.btn-primary:active {
+    background-color: #86040e;
+    border-color: transparent;
 }
 
 .learnmore {
@@ -146,6 +176,7 @@ a:hover {
     background-color: transparent;
     border-color: #ffffff;
     font-size: 1.0em;
+    margin-top: 15px;
 }
 
 footer {
@@ -165,4 +196,80 @@ footer {
 
 .copyright {
     padding-top: 20px;
+}
+
+
+
+
+
+
+
+.discover-head {
+    background: url("images/discover-head.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+h6 {
+    font-family: 'New Tegomin', serif;
+    font-size: 4.0em;
+    color: #16151c;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.brutality {
+    background: url("images/brutality-post.jpg") no-repeat center center;
+    background-size: cover;
+    padding-left: 3%;
+}
+
+.fresco {
+    background: url("images/fresco-post.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.riches {
+    background: url("images/riches-post.jpg") no-repeat center center;
+    background-size: cover;
+    padding-left: 3%;
+}
+
+.discover-posts {
+    color: #ffffff;
+}
+
+h7 {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 2.5em;
+    color:#c2a171;
+}
+
+.expand {
+    background-color: transparent;
+    border-color: #86040e;
+    color: #ffffff;
+    border-width: 2px;
+}
+
+.blog-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+.normal-days {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.special-days {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
 }
