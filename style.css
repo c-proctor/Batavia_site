@@ -1,10 +1,10 @@
 body {
-    font-size:16px;
+    font-size: 16px;
     font-family: 'Roboto', sans-serif;
 }
 
 .navbar {
-    background-color:#16151c;
+    background-color: #16151c;
     border-radius: 0px;
     margin-bottom: 0px;
 }
@@ -19,15 +19,15 @@ ul.nav.navbar-nav.navbar-right {
 }
 
 a {
-    color:#ffffff;
+    color: #ffffff;
 }
 
 a:hover {
-    color:#a97857;
+    color: #a97857;
 }
 
 .navbar-nav li a:hover {
-    background-color:transparent;
+    background-color: transparent;
 }
 
 .navbar-nav li {
@@ -35,13 +35,13 @@ a:hover {
 }
 
 .navbar-brand {
-    color:#a97857;
+    color: #a97857;
     font-family: 'Nothing You Could Do', cursive;
     font-size: 2.0em;
     vertical-align: middle;
 }
 
-.navbar-brand>img {
+.navbar-brand > img {
     display: inline;
 }
 
@@ -65,7 +65,7 @@ a:hover {
 }
 
 .btn-primary:hover {
-    background-color:#86040e;
+    background-color: #86040e;
     border-color: transparent;
 }
 
@@ -241,7 +241,7 @@ h6 {
 h7 {
     font-family: 'Nothing You Could Do', cursive;
     font-size: 2.5em;
-    color:#c2a171;
+    color: #c2a171;
 }
 
 .expand {
@@ -263,12 +263,81 @@ h7 {
 
 
 
+
+
+.opening-hours {
+    background: url("images/opening-hours-bg.jpg") no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+h8 {
+    font-size: 2.5em;
+    font-weight: 800;
+}
+
 .normal-days {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
+    padding-top: 30px;
 }
+
 .special-days {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.getting-here {
+    background: url("images/getting-here-bg.jpg") no-repeat center center;
+    background-size: cover;
+    color: #16151c;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.getting-here-map {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h9 {
+    font-size: 1.25em;
+    font-weight: 800;
+}
+
+.accessibility {
+    background-color: #16151c;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.accessibility-list {
+    padding-top: 30px;
+}
+
+.site-map {
+    color: #16151c;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.site-map-map {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+h10 {
+    font-size: 1.875em;
+    font-weight: 800;
+}
+
+.key-list {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
