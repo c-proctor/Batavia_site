@@ -14,6 +14,14 @@ ul.nav.navbar-nav.navbar-right {
     margin-right: -60px;
 }
 
+.navbar-toggle {
+    background-color: transparent !important;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
 .navbar-collapse {
     margin-bottom: 20px;
 }
@@ -31,7 +39,7 @@ a:hover {
 }
 
 .navbar-nav li {
-    padding-left: 80px;
+    padding-left: 70px;
 }
 
 .navbar-brand {
@@ -235,6 +243,7 @@ h6 {
 }
 
 .discover-posts {
+    background-color: #16151c;
     color: #ffffff;
 }
 
@@ -255,8 +264,6 @@ h7 {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
-
 
 
 
@@ -337,8 +344,82 @@ h10 {
     font-weight: 800;
 }
 
+.sitemap2 {
+    display: none;
+}
+
 .key-list {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .herobg h1 {
+        padding-top: 7%;
+    }
+    
+    .learnmore {
+        margin-bottom: 10%;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 320px) {
+    .learnmore {
+        margin-bottom: 20%;
+    }
+    
+    .aboutbg {
+        background: url("images/about-bg_mobile.jpg") no-repeat center center;
+        background-size: cover;
+    }
+    
+    h2 {
+        padding-bottom: 5%;
+    }
+    
+    .aboutdiv {
+        padding-right: 0%;
+    }
+    
+    .discoverbg {
+        padding-bottom: 10%;
+    }
+    
+    .discoverbg h3 {
+        padding-bottom: 5%;
+    }
+    
+    .discoverbg .img-responsive {
+        padding-top: 10%;
+    }
+    
+    .locationbg h3 {
+        padding-bottom: 5%;
+    }
+    
+    .map {
+        padding-bottom: 5%;
+    }
+    
+    .opening {
+        padding-top: 5%;
+        padding-bottom: 15%;
+    }
+    
+    
+    
+   
+    
+    .address {
+        padding-bottom: 10%;
+    }
 }
