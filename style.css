@@ -10,8 +10,8 @@ body {
 }
 
 ul.nav.navbar-nav.navbar-right {
-    padding-top: 20px;
-    margin-right: -60px;
+    padding-top: 2%;
+    margin-right: -6%;
 }
 
 .navbar-toggle {
@@ -23,7 +23,7 @@ ul.nav.navbar-nav.navbar-right {
 }
 
 .navbar-collapse {
-    margin-bottom: 20px;
+    margin-bottom: 2%;
 }
 
 a {
@@ -66,10 +66,8 @@ a:hover {
     font-family: 'New Tegomin', serif;
     font-size: 4.1em;
     color: #ffffff;
-    padding-bottom: 20px;
-    padding-top: 300px;
-    /*mix-blend-mode: overlay;*/
-    /*opacity: 0.75;*/
+    padding-bottom: 2%;
+    padding-top: 30%;
 }
 
 .btn-primary:hover {
@@ -92,7 +90,7 @@ a:hover {
     border-color: #86040e;
     color: #ffffff;
     border-width: 2px;
-    margin-bottom: 200px;
+    margin-bottom: 30%;
 }
 
 .aboutbg {
@@ -120,14 +118,14 @@ a:hover {
 .discoverbg {
     background: url("images/discover-bg.jpg") no-repeat center center;
     background-size: cover;
-    padding-bottom: 80px;
+    padding-bottom: 5%;
 }
 
 .discoverbg h3 {
     font-family: 'New Tegomin', serif;
     color: #ffffff;
     font-size: 2.5em;
-    padding-bottom: 50px;
+    padding-bottom: 5%;
 }
 
 .discoverbg h4 {
@@ -149,7 +147,7 @@ a:hover {
     font-family: 'New Tegomin', serif;
     color: #ffffff;
     font-size: 2.5em;
-    padding-bottom: 50px;
+    padding-bottom: 5%;
 }
 
 .locationbg h5 {
@@ -158,20 +156,21 @@ a:hover {
 }
 
 .map {
-    padding-bottom: 60px;
+    padding-bottom: 5%;
 }
 
 .opening {
     color: #ffffff;
-    padding-top: 80px;
+    padding-top: 8%;
 }
 
 .blocker {
-    width: 133px;
+    width: 135px;
     height: 3px;
     background-color: #ffffff;
     margin: auto;
-    margin-bottom: 40px;
+    margin-bottom: 5%;
+    margin-top: 3%;
 }
 
 .hours-list {
@@ -184,13 +183,13 @@ a:hover {
     background-color: transparent;
     border-color: #ffffff;
     font-size: 1.0em;
-    margin-top: 15px;
+    margin-top: 5%;
 }
 
 footer {
     background-color: #16151c;
     color: #ffffff;
-    padding-top: 25px;
+    padding-top: 2%;
 }
 
 .foot-logo {
@@ -199,11 +198,13 @@ footer {
 
 .socials {
     display: inline;
-    padding-top: 15px;
+    padding-top: 1.5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .copyright {
-    padding-top: 20px;
+    padding-top: 2%;
 }
 
 
@@ -221,8 +222,8 @@ h6 {
     font-family: 'New Tegomin', serif;
     font-size: 4.0em;
     color: #16151c;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 4%;
+    padding-bottom: 5%;
 }
 
 .brutality {
@@ -261,8 +262,8 @@ h7 {
 }
 
 .blog-padding {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 
@@ -276,8 +277,8 @@ h7 {
     background: url("images/opening-hours-bg.jpg") no-repeat center center;
     background-size: cover;
     color: #ffffff;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 2%;
+    padding-bottom: 3%;
 }
 
 h8 {
@@ -289,27 +290,27 @@ h8 {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
-    padding-top: 30px;
+    padding-top: 3%;
 }
 
 .special-days {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
-    padding-top: 20px;
+    padding-top: 2%;
 }
 
 .getting-here {
     background: url("images/getting-here-bg.jpg") no-repeat center center;
     background-size: cover;
     color: #16151c;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 2%;
+    padding-bottom: 3%;
 }
 
 .getting-here-map {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 h9 {
@@ -320,23 +321,23 @@ h9 {
 .accessibility {
     background-color: #16151c;
     color: #ffffff;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 2%;
+    padding-bottom: 3%;
 }
 
 .accessibility-list {
-    padding-top: 30px;
+    padding-top: 3%;
 }
 
 .site-map {
     color: #16151c;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 2%;
+    padding-bottom: 3%;
 }
 
 .site-map-map {
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding-top: 3%;
+    padding-bottom: 1%;
 }
 
 h10 {
