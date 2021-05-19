@@ -3,8 +3,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 aboutdiv">
-                    <h2 class="text-center"> A shipwreck turns to tragedy </h2>
-                    <p class="about-text"> Almost 400 years ago, in the hours before dawn on 4 June 1629, a flagship of the Dutch East India Company (VOC) was wrecked upon Morning Reef near Beacon Island, some 60 kilometres off the Western Australian coast. <br> <br> It was the maiden voyage of the <i>Batavia</i>, bound for the Dutch East Indian colonies of modern-day Jakarta, but the tragedy of shipwreck would be overshadowed by the subsequent mutiny among the survivors on the isolated Houtman Abrolhos Islands.</p>
+<?php
+global $more;//define a global variable
+$more = 0;// the global varibale is now equal to 0
+query_posts('cat=2');//look for posts that have the category of 2
+if(have_posts()) ://if we have posts to display
+while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 2 get thet title and content
+?>
+<h2><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h2> 
+            <div><p class="about-text"><?php the_content() ?></p></div>
+<?php
+endwhile;
+endif;
+wp_reset_query();?>
                 </div>
                 <div class="col-md-6">
                 </div>
