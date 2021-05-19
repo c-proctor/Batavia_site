@@ -21,19 +21,19 @@
                     <img class="img-responsive" alt="skeleton" src="http://206.189.45.97/~mesh20/sub1/wp-content/themes/starter_for_josh_site/images/game.jpg ">
                     <h4>Barbarism &amp; Brutality</h4>
                     <p>On the 28 October the VOC (Dutch East India Company) ship <i>Batavia</i> left Texel in The Netherlands bound for Batavia, the company's headquarters in the East.</p>
-                    <a class="continue" href="#">Continue Reading</a>
+                    <a class="continue" href="discover.html">Continue Reading</a>
                 </div>
                 <div class="col-md-4">
                     <img class="img-responsive" alt="skeleton" src="http://206.189.45.97/~mesh20/sub1/wp-content/themes/starter_for_josh_site/images/game.jpg ">
                     <h4>The Portico Fresco</h4>
                     <p>During the 1972-76 excavation of <i>Batavia</i>, divers raised 137 shaped sandstone building blocks weighing a total of 37 tonnes. Like a giant jigsaw, they fitted together to form a magnificent portico façade.</p>
-                    <a class="continue" href="#">Continue Reading</a>
+                    <a class="continue" href="discover.html">Continue Reading</a>
                 </div>
                 <div class="col-md-4">
                     <img class="img-responsive" alt="skeleton" src="http://206.189.45.97/~mesh20/sub1/wp-content/themes/starter_for_josh_site/images/game.jpg ">
                     <h4>Lost Riches</h4>
                     <p>During the 1972-76 excavation of <i>Batavia</i>, divers raised 137 shaped sandstone building blocks weighing a total of 37 tonnes. Like a giant jigsaw, they fitted together to form a magnificent portico façade.</p>
-                    <a class="continue" href="#">Continue Reading</a>
+                    <a class="continue" href="discover.html">Continue Reading</a>
                 </div>
             </div>
         </div>
