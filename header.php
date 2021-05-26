@@ -64,7 +64,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"></li>
                     <li><a href="#">WHAT'S ON</a></li>
-                    <li><a href="discover.html">ABOUT</a></li>
+                    <li><a href="discover.html">DISCOVER</a></li>
                     <li><a href="services.html">ACCESS</a></li>
                     <li><a href="#">EDUCATION</a></li>
                 </ul>

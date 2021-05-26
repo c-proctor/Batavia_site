@@ -21,7 +21,7 @@ body {
 
 ul.nav.navbar-nav.navbar-right {
     padding-top: 2%;
-    margin-right: -6%;
+    margin-right: 0%;
 }
 
 .navbar-toggle {
@@ -114,7 +114,7 @@ a:hover {
     padding-right: 15%;
 }
 
-.aboutbg h2 {
+.aboutdiv h2 {
     font-family: 'Nothing You Could Do', cursive;
     color: #a97857;
     font-size: 2.0em;
@@ -283,7 +283,7 @@ h7 {
 
 
 
-.opening-hours {
+.opening-hours-lg {
     background: url("images/opening-hours-bg.jpg") no-repeat center center;
     background-size: cover;
     color: #ffffff;
@@ -353,10 +353,6 @@ h9 {
 h10 {
     font-size: 1.875em;
     font-weight: 800;
-}
-
-.sitemap2 {
-    display: none;
 }
 
 .key-list {
@@ -430,7 +426,5 @@ h10 {
     
    
     
-    .address {
-        padding-bottom: 10%;
-    }
+    
 }
