@@ -284,6 +284,10 @@ h7 {
     display: none;
 }
 
+.post-image {
+    width: 100%;
+    height: auto;
+}
 
 
 
@@ -291,7 +295,8 @@ h7 {
 
 
 
-.opening-hours-lg {
+
+.opening-hours {
     background: url("images/opening-hours-bg.jpg") no-repeat center center;
     background-size: cover;
     color: #ffffff;
@@ -369,6 +374,16 @@ h10 {
     margin: 0px;
 }
 
+.opening-sm {
+    display: none;
+}
+
+.map-v {
+    display: none;
+}
+
+
+
 
 
 /*navbar break*/
@@ -429,12 +444,18 @@ h10 {
     .discover-lg {
         display: none;
     }
+    
+    
+    
+    .special-days {
+        padding-top: 10%;
+    }
 }
 
 
 @media only screen and (max-width: 425px) {
     .herobg h1 {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .aboutbg {
@@ -485,5 +506,26 @@ h10 {
 
     footer {
         padding-top: 5%;
+    }
+    
+    
+    
+    
+        
+    
+    .opening-lg {
+        display: none;
+    }
+    
+    .opening-sm {
+        display: block;
+    }
+    
+    .map-h {
+        display: none;
+    }
+    
+    .map-v {
+        display: block;
     }
 }
