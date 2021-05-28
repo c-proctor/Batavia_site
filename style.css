@@ -5,7 +5,7 @@ Description: A style-free theme to get you started on an HTML5-based Wordpress t
 Author: Me
 Author URI: http://joshwhitkin.com
 Version: 1
-*/ 
+*/
 
 
 body {
@@ -71,10 +71,10 @@ a:hover {
     background: url("images/bfswrbr.jpg") no-repeat center center;
     background-size: cover;
 }
- c
+
 .herobg h1 {
     font-family: 'New Tegomin', serif;
-    font-size: 4.1em;
+    font-size: 4.1vw;
     color: #ffffff;
     padding-bottom: 2%;
     padding-top: 30%;
@@ -112,6 +112,10 @@ a:hover {
     padding-top: 10%;
     padding-bottom: 10%;
     padding-right: 15%;
+}
+
+.about-sm {
+    display: none;
 }
 
 .aboutdiv h2 {
@@ -171,7 +175,7 @@ a:hover {
 
 .opening {
     color: #ffffff;
-    padding-top: 8%;
+    padding-top: 0%;
 }
 
 .blocker {
@@ -276,6 +280,10 @@ h7 {
     padding-bottom: 5%;
 }
 
+.discover-sm {
+    display: none;
+}
+
 
 
 
@@ -363,68 +371,119 @@ h10 {
 
 
 
+/*navbar break*/
+@media (max-width: 990px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
 
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+
+    .navbar-header .collapse,
+    .navbar-toggle {
+        display: block !important;
+    }
+
+    .navbar-header {
+        float: none;
+        padding-bottom: 2%;
+    }
+}
 
 @media only screen and (max-width: 768px) {
     .herobg h1 {
+        font-size: 3.0em;
         padding-top: 7%;
+        padding-right: 5%;
+    }
+
+    .learnmore {
+        margin-bottom: 15%;
+        margin-right: 5%;
+    }
+
+    .aboutdiv {
+        padding-right: 40%;
+    }
+
+    .opening {
+        margin-bottom: 10%;
+        padding-top: 5%;
+    }
+
+    .foot-logo {
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     
-    .learnmore {
-        margin-bottom: 10%;
+    
+    
+    
+    
+    .discover-sm {
+        display: block;
+    }
+    
+    .discover-lg {
+        display: none;
     }
 }
 
 
-
-
-
-@media only screen and (max-width: 320px) {
-    .learnmore {
-        margin-bottom: 20%;
+@media only screen and (max-width: 425px) {
+    .herobg h1 {
+        font-size: 25px;
     }
-    
+
     .aboutbg {
         background: url("images/about-bg_mobile.jpg") no-repeat center center;
         background-size: cover;
     }
-    
+
+    .about-lg {
+        display: none;
+    }
+
+    .about-sm {
+        display: block;
+    }
+
     h2 {
         padding-bottom: 5%;
     }
-    
+
     .aboutdiv {
         padding-right: 0%;
     }
-    
+
     .discoverbg {
         padding-bottom: 10%;
     }
-    
+
     .discoverbg h3 {
         padding-bottom: 5%;
     }
-    
+
     .discoverbg .img-responsive {
         padding-top: 10%;
     }
-    
+
     .locationbg h3 {
         padding-bottom: 5%;
     }
-    
+
     .map {
         padding-bottom: 5%;
     }
-    
+
     .opening {
         padding-top: 5%;
         padding-bottom: 15%;
     }
-    
-    
-    
-   
-    
-    
+
+    footer {
+        padding-top: 5%;
+    }
 }
