@@ -2,14 +2,13 @@
 <html lang="en">
 
 <head>
-    <meta charset="<?php bloginfo('charset'); ?>">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    
-    <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
-    
-    <title><?php
+    <meta charset="<?php bloginfo('charset'); ?>">
+    <title>
+<?php
 		      if (function_exists('is_tag') && is_tag()) {
 		         single_tag_title("Tag Archive for &quot;"); echo '&quot; - '; }
 		      elseif (is_archive()) {
@@ -26,10 +25,11 @@
 		          bloginfo('name'); }
 		      if ($paged>1) {
 		         echo ' - page '. $paged; }
-		   ?>
+?>
 </title>
     
     <meta name="description" content="<?php bloginfo('description'); ?>">
+    <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -43,11 +43,15 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&family=Nothing+You+Could+Do&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
 <?php wp_head(); ?> <!—very important that this is added-->
 </head>
 
 <body>
-
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 
     <nav class="navbar">
         <div class="container-fluid">
@@ -57,7 +61,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-            
+
                 <a class="navbar-brand" href="index.html"><img class="img-responsive nav-image" alt=“logo” src="images/nav-logo.png"> Batavia Gallery</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
