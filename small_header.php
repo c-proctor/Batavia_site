@@ -72,21 +72,8 @@
         'container' => false,
         'list_item_class' => "nav-item",
         'link_class' => "nav-link",
-        )); ?>
+)); ?>
 </ul>
             </div>
         </div>
     </nav>
-
-    <header class="container-fluid herobg">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2">
-                </div>
-                <div class="col-md-10 text-right">
-                    <h1 class="text-right">SHIPWRECK, MUTINY <br>AND MURDER</h1>
-                    <button type="button" class="btn btn-primary btn-sm learnmore">LEARN MORE</button>
-                </div>
-            </div>
-        </div>
-    </header>
