@@ -11,6 +11,7 @@
                 <div class="col-md-6 aboutdiv">
                     <h2><?php the_field('titleforaboutbatavia'); ?></h2><!--  custom field for the aboutme content-->
                     <p class="about-text"><?php the_field('paragraphforaboutbatavia'); ?></p>
+                    <p class="about-text"><?php the_field('paragraphforaboutbatavia1'); ?></p>
                 </div>
                 <div class="col-md-6">
                 </div>
@@ -20,8 +21,9 @@
         <!--displays at 425px screen size-->
         <div class="container about-sm">
             <div class="aboutdiv">
-                <h2><?php the_field('titleforaboutbatavia'); ?></h2><!--  custom field for the aboutme content-->
+                <h2 class="text-center"><?php the_field('titleforaboutbatavia'); ?></h2><!--  custom field for the aboutme content-->
                 <p class="about-text"><?php the_field('paragraphforaboutbatavia'); ?></p>
+                <p class="about-text"><?php the_field('paragraphforaboutbatavia1'); ?></p>
             </div>
         </div>
     </section>
@@ -33,16 +35,28 @@
                     <h3 class="text-center article-title "><?php the_field('titleforarticles'); ?></h3>
                 </div>
                 <div class="col-md-4">
-                    <img class="img-responsive" alt=“portait” src="<?php the_field('articleimage'); ?>">
-                    <h4><?php the_field('articletitle'); ?></h4>
-                    <p><?php the_field('articleexcerpt'); ?> </p>
-                    <a href="<?php the_field('continuereading'); ?>" class="continue">Continue Reading</a>
+<?php $post_id = 128;
+$queried_post = get_post($post_id);?>
+<?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
+<h4><?php echo $queried_post->post_title; ?></h4>
+<?php echo $queried_post->post_excerpt; ?>
+<?php echo '<a class="continue" href="'.get_permalink($queried_post).'"><br>Continue Reading</a>';?>
                 </div>
                 <div class="col-md-4">
-
+<?php $post_id = 131;
+$queried_post = get_post($post_id);?>
+<?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
+<h4><?php echo $queried_post->post_title; ?></h4>
+<?php echo $queried_post->post_excerpt; ?>
+<?php echo '<a class="continue" href="'.get_permalink($queried_post).'"><br>Continue Reading</a>';?>
                 </div>
                 <div class="col-md-4">
-
+<?php $post_id = 133;
+$queried_post = get_post($post_id);?>
+<?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
+<h4><?php echo $queried_post->post_title; ?></h4>
+<?php echo $queried_post->post_excerpt; ?>
+<?php echo '<a class="continue" href="'.get_permalink($queried_post).'"><br>Continue Reading</a>';?>
                 </div>
             </div>
         </div>

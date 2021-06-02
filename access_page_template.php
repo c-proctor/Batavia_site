@@ -9,7 +9,7 @@
 
     <section class="container-fluid opening-hours">
         <div class="container opening-lg">
-            <h8>Opening Hours</h8>
+            <h8><?php the_field('titleforopeninghours'); ?></h8>
             <div class="row">
                 <div class="col-sm-3">
                     <ul class="normal-days">
@@ -102,26 +102,26 @@
 
     <section class="container-fluid getting-here">
         <div class="container">
-            <h8>Getting Here</h8>
+            <h8><?php the_field('titleforgettinghere'); ?></h8>
             <div class="getting-here-map text-center">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3381.4405397360224!2d115.74053151570227!3d-32.057331434753905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32a171ad35d0b3%3A0xcd18ab60710a3de8!2sWA%20Shipwrecks%20Museum!5e0!3m2!1sen!2sau!4v1619589483222!5m2!1sen!2sau" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
             <div class="row">
                 <div class="col-md-4 address">
-                    <h9>ADDRESS</h9>
+                    <h9><?php the_field('titleforaddress'); ?></h9>
                     <p>WA Shipwrecks Museum</p>
                     <br>
                     <p>Cliff Street<br>Fremantle,<br>Western Australia<br>6160,<br>Australia</p>
-                    <h9>PHONE</h9>
-                    <p>1300 134 081</p>
+                    <h9><?php the_field('titleforphone'); ?></h9>
+                    <p><?php the_field('paragraphforphonenumber'); ?></p>
                 </div>
                 <div class="col-md-8 transport">
-                    <h9>BY TRAIN</h9>
-                    <p>The WA Shipwrecks Museum is located within walking distance of Fremantle Station. Visit the Transperth website for timetables.</p>
-                    <h9>BY BUS</h9>
-                    <p>The WA Shipwrecks Museum is serviced by free Fremantle Cat Service, at Blue stop 17. Visit the Transperth website for timetables and details.</p>
-                    <h9>BY CAR</h9>
-                    <p>Paid parking is available in the City of Fremantle car park just outside the WA Shipwrecks Museum. Additional paid parking is available in the Wilsons car park at the WA Maritime Museum, Victoria Quay which is a short walk from the WA Shipwrecks Museum.</p>
+                    <h9><?php the_field('titlefortransport1'); ?></h9>
+                    <p><?php the_field('paragraphfortransport1'); ?></p>
+                    <h9><?php the_field('titlefortransport2'); ?></h9>
+                    <p><?php the_field('paragraphfortransport2'); ?></p>
+                    <h9><?php the_field('titlefortransport3'); ?></h9>
+                    <p><?php the_field('paragraphfortransport3'); ?></p>
                 </div>
             </div>
         </div>
@@ -129,7 +129,7 @@
 
     <section class="container-fluid accessibility">
         <div class="container">
-            <h8>Site Accessibility</h8>
+            <h8><?php the_field('titleforaccessibility'); ?></h8>
             <div class="accessibility-list">
                 <h9>Access within Museum</h9>
                 <p>Ramp and lift available for disabled access. Automatic doors to galleries.</p>
@@ -163,7 +163,7 @@
 
     <section class="container-fluid site-map">
         <div class="container">
-            <h8>Site Map</h8>
+            <h8><?php the_field('titleforsitemap'); ?></h8>
             <div class="site-map-map text-center map-h">
                 <img class="img-responsive" alt="map" src="http://206.189.45.97/~mesh20/sub1/wp-content/themes/batavia_site/images/sitemap-h.jpg">
             </div>

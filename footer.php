@@ -2,7 +2,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 text-center">
-                    <a href="index.html">
+                    <a href="#">
                         <p>HOME</p>
                     </a>
                     <a href="#"><img class="img-responsive socials" alt="facebook" src="http://206.189.45.97/~mesh20/sub1/wp-content/themes/batavia_site/images/facebook.png"></a><a href="#"><img class="img-responsive socials" alt="instagram" src="http://206.189.45.97/~mesh20/sub1/wp-content/themes/batavia_site/images/instagram.png"></a>

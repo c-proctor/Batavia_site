@@ -62,7 +62,7 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <a class="navbar-brand" href="index.html"><img class="img-responsive nav-image" alt=“logo” src="http://206.189.45.97/~mesh20/sub1/wp-content/themes/batavia_site/images/logo.png"> Batavia Gallery</a>
+                <a class="navbar-brand" href="#"><img class="img-responsive nav-image" alt=“logo” src="http://206.189.45.97/~mesh20/sub1/wp-content/themes/batavia_site/images/logo.png"> Batavia Gallery</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
@@ -78,13 +78,13 @@
         </div>
     </nav>
 
-    <header class="container-fluid herobg">
+    <header class="container-fluid herobg"<?php if ( get_field(' headerbackgroundimage ') ) { echo 'style="background: url(' . get_field(' headerbackgroundimage ') . ')"'; } ?>>
         <div class="container">
             <div class="row">
                 <div class="col-md-2">
                 </div>
                 <div class="col-md-10 text-right">
-                    <h1 class="text-right">SHIPWRECK, MUTINY <br>AND MURDER</h1>
+                    <h1 class="text-right"><?php the_field('maintagline'); ?></h1>
                     <button type="button" class="btn btn-primary btn-sm learnmore">LEARN MORE</button>
                 </div>
             </div>

@@ -62,7 +62,7 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <a class="navbar-brand" href="index.html"><img class="img-responsive nav-image" alt=“logo” src="http://206.189.45.97/~mesh20/sub1/wp-content/themes/batavia_site/images/logo.png"> Batavia Gallery</a>
+                <a class="navbar-brand" href="#"><img class="img-responsive nav-image" alt=“logo” src="http://206.189.45.97/~mesh20/sub1/wp-content/themes/batavia_site/images/logo.png"> Batavia Gallery</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
