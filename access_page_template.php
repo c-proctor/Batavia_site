@@ -11,7 +11,7 @@
         <div class="container opening-lg">
             <h8><?php the_field('titleforopeninghours'); ?></h8>
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-xs-3">
                     <ul class="normal-days">
                         <li><b>DAY</b></li>
                         <li>Monday</li>
@@ -30,7 +30,7 @@
                         <li>Good Friday</li>
                     </ul>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-xs-3">
                     <ul class="normal-days">
                         <li><b>OPENING HOURS</b></li>
                         <li>9.30am - 5.00pm</li>
@@ -49,7 +49,7 @@
                         <li>Closed</li>
                     </ul>
                 </div>
-                <div class="col-md-6">
+                <div class="col-xs-6">
                 </div>
             </div>
         </div>
@@ -57,7 +57,7 @@
         <div class="container opening-sm">
             <h8>Opening Hours</h8>
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-xs-3">
                     <ul class="normal-days">
                         <li><b>DAY</b></li>
                         <li>Monday</li>
@@ -76,7 +76,7 @@
                         <li>Good Friday</li>
                     </ul>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-xs-3">
                     <ul class="normal-days">
                         <li><b>OPENING HOURS</b></li>
                         <li>9.30am - 5.00pm</li>

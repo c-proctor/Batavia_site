@@ -32,7 +32,9 @@
                 <div class="col-md-6 blog-padding">
                     <h7><?php the_field('posttitle'); ?></h7>
                     <p>During the 1972-76 excavation of Batavia, divers raised 137 shaped sandstone building blocks weighing a total of 37 tonnes. Like a giant jigsaw, they fitted together to form a magnificent portico façade.<br><br>Clues to the reason why the portico was on board Batavia have been found in the journal of Pieter van de Broeke, published in 1634. This work contained a number of woodcuts, one of which showed the town and castle of Batavia (Jakarta). The woodcut, engraved by Adriaen J. Matham of Haarlem, shows the Waterpoort or sea-gate of the castle incomplete, with scaffolding and a ladder in the place of an actual gateway.</p>
-                    <button type="button" class="btn btn-primary btn-sm expand">EXPAND</button>
+                    <a href="#">
+                        <button type="button" class="btn btn-primary btn-sm expand">EXPAND</button>
+                    </a>
                 </div>
             </div>
         </div>

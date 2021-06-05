@@ -62,12 +62,12 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <a class="navbar-brand" href="#"><img class="img-responsive nav-image" alt=“logo” src="http://206.189.45.97/~mesh20/sub1/wp-content/themes/batavia_site/images/logo.png"> Batavia Gallery</a>
+                <a class="navbar-brand" href="http://206.189.45.97/~mesh20/sub1/"><img class="img-responsive nav-image" alt=“logo” src="http://206.189.45.97/~mesh20/sub1/wp-content/themes/batavia_site/images/logo.png"> Batavia Gallery</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
 <?php wp_nav_menu(array(
-        'menu' => 'Batavia menu',
+        'menu' => 'Batavia Menu',
         'items_wrap'=>'%3$s',
         'container' => false,
         'list_item_class' => "nav-item",
@@ -81,9 +81,9 @@
     <header class="container-fluid herobg"<?php if ( get_field(' headerbackgroundimage ') ) { echo 'style="background: url(' . get_field(' headerbackgroundimage ') . ')"'; } ?>>
         <div class="container">
             <div class="row">
-                <div class="col-md-2">
-                </div>
-                <div class="col-md-10 text-right">
+                <!--<div class="col-md-2">
+                </div>-->
+                <div class="text-right">
                     <h1 class="text-right"><?php the_field('maintagline'); ?></h1>
                     <button type="button" class="btn btn-primary btn-sm learnmore">LEARN MORE</button>
                 </div>
