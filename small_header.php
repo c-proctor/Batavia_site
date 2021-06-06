@@ -65,14 +65,14 @@
                 <a class="navbar-brand" href="http://206.189.45.97/~mesh20/sub1/"><img class="img-responsive nav-image" alt=“logo” src="http://206.189.45.97/~mesh20/sub1/wp-content/themes/batavia_site/images/logo.png"> Batavia Gallery</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-<?php wp_nav_menu(array(
-        'menu' => 'Batavia menu',
+<ul class="nav navbar-nav navbar-right">
+  <?php wp_nav_menu(array(
+        'menu' => 'Top menu',
         'items_wrap'=>'%3$s',
         'container' => false,
         'list_item_class' => "nav-item",
         'link_class' => "nav-link",
-)); ?>
+        )); ?>
 </ul>
             </div>
         </div>

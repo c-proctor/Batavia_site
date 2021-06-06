@@ -66,8 +66,8 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-<?php wp_nav_menu(array(
-        'menu' => 'Batavia Menu',
+  <?php wp_nav_menu(array(
+        'menu' => 'Top menu',
         'items_wrap'=>'%3$s',
         'container' => false,
         'list_item_class' => "nav-item",
@@ -85,7 +85,9 @@
                 </div>-->
                 <div class="text-right">
                     <h1 class="text-right"><?php the_field('maintagline'); ?></h1>
-                    <button type="button" class="btn btn-primary btn-sm learnmore">LEARN MORE</button>
+                    <a href="http://206.189.45.97/~mesh20/sub1/?page_id=144">
+                        <button type="button" class="btn btn-primary btn-sm learnmore">LEARN MORE</button>
+                    </a>
                 </div>
             </div>
         </div>

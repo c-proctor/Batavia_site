@@ -377,6 +377,7 @@ h10 {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
+    padding-left: 1%;
 }
 
 .opening-sm {
@@ -449,6 +450,8 @@ h10 {
     .discover-lg {
         display: none;
     }
+    
+    
     
     
     

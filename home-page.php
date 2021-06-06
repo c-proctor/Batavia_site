@@ -74,8 +74,10 @@ $queried_post = get_post($post_id);?>
                 </div>
                 <div class="col-md-5 opening text-center">
                     <!--opening hours-->
-                    <h5>OPENING HOURS</h5>
+                    <h5><?php the_field('openinghourstitle'); ?></h5>
                     <div class="blocker"></div>
+                    <div class="hours-list"><?php the_field('dayslist'); ?></div>
+                    <!--
                     <ul class="hours-list">
                         <li>MONDAY</li>
                         <li>TUESDAY</li>
@@ -85,7 +87,10 @@ $queried_post = get_post($post_id);?>
                         <li>SATURDAY</li>
                         <li>SUNDAY</li>
                     </ul>
-                    <button type="button" class="btn btn-primary btn-sm moreinfo">MORE INFO</button>
+-->
+                    <a href="http://206.189.45.97/~mesh20/sub1/?page_id=146">
+                        <button type="button" class="btn btn-primary btn-sm moreinfo">MORE INFO</button>
+                    </a>
                 </div>
             </div>
         </div>

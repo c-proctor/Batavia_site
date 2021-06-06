@@ -57,7 +57,7 @@
         <div class="container opening-sm">
             <h8>Opening Hours</h8>
             <div class="row">
-                <div class="col-sm-3 col-xs-3">
+                <div class="col-xs-6">
                     <ul class="normal-days">
                         <li><b>DAY</b></li>
                         <li>Monday</li>
@@ -76,7 +76,7 @@
                         <li>Good Friday</li>
                     </ul>
                 </div>
-                <div class="col-sm-3 col-xs-3">
+                <div class="col-xs-6">
                     <ul class="normal-days">
                         <li><b>OPENING HOURS</b></li>
                         <li>9.30am - 5.00pm</li>
@@ -109,9 +109,14 @@
             <div class="row">
                 <div class="col-md-4 address">
                     <h9><?php the_field('titleforaddress'); ?></h9>
+                    <p><?php the_field('placename'); ?></p>
+                    <br>
+                    <p><?php the_field('addresscontent'); ?></p>
+                    <!--
                     <p>WA Shipwrecks Museum</p>
                     <br>
                     <p>Cliff Street<br>Fremantle,<br>Western Australia<br>6160,<br>Australia</p>
+                    -->
                     <h9><?php the_field('titleforphone'); ?></h9>
                     <p><?php the_field('paragraphforphonenumber'); ?></p>
                 </div>
@@ -131,32 +136,7 @@
         <div class="container">
             <h8><?php the_field('titleforaccessibility'); ?></h8>
             <div class="accessibility-list">
-                <h9>Access within Museum</h9>
-                <p>Ramp and lift available for disabled access. Automatic doors to galleries.</p>
-                <h9>ACROD Parking</h9>
-                <p>Wilsons car park $1.80/hr<br>2 bays in front of museum and 1 bay on Slip Street.<br>Level and ramp access to the Museum entrance.</p>
-                <h9>Audio Guides</h9>
-                <p>Not available.</p>
-                <h9>Captioning</h9>
-                <p>Most interactives have captions.</p>
-                <h9>Contact</h9>
-                <p>For groups of 10 or more, please contact 1300 134 081.</p>
-                <h9>Drop Off Area</h9>
-                <p>One bay front of Museum. Ramp to footpath.</p>
-                <h9>Entry to Museum</h9>
-                <p>Approximately 30 meters level path to Museum entrance which has self-opening doors.<br>There is one entry to the Museum.</p>
-                <h9>Equipment Available</h9>
-                <p>One wheelchair available for use.</p>
-                <h9>Hearing Loops</h9>
-                <p>No hearing loops available.</p>
-                <h9>Reception</h9>
-                <p>Entry foyer immediately inside self-opening entry door.</p>
-                <h9>Toilets</h9>
-                <p>Unisex disability access toilet available on the ground floor.</p>
-                <h9>Touch Trolleys</h9>
-                <p>Tactiles entrance on all stairs.<br>Touch trolleys available during school holidays and special exhibitions for all Museum visitors.<br>Specialised tours have been organised for people with a range of disabilities.</p>
-                <h9>Trained Guide or Assistance Dogs</h9>
-                <p>Visitors accompanied by a Trained Guide or Assistance Dog or a dog undergoing such training are welcome in this site.</p>
+                <p><?php the_field('accesscontent'); ?></p>
             </div>
         </div>
     </section>
@@ -172,21 +152,11 @@
             </div>
             <h10>KEY</h10>
             <div class="row">
-                <div class="col-md-6">
-                    <ul class="key-list">
-                        <li>1. Entrance Gallery</li>
-                        <li>2. Museum Shop</li>
-                        <li>3. Hartog to de Vlamingh Gallery</li>
-                        <li>4. Xantho Gallery</li>
-                    </ul>
+                <div class="col-md-6 key-list">
+                    <p><?php the_field('sitemaplist1'); ?></p>
                 </div>
-                <div class="col-md-6">
-                    <ul class="key-list">
-                        <li>5. Corridor Displays</li>
-                        <li>6. Batavia Gallery</li>
-                        <li>7. Batavia Observation Deck</li>
-                        <li>8. Dutch Wrecks Gallery</li>
-                    </ul>
+                <div class="col-md-6 key-list">
+                    <p><?php the_field('sitemaplist2'); ?></p>
                 </div>
             </div>
         </div>
